@@ -1,0 +1,22 @@
+[
+  {
+    "pergunta": "Como posso escrever uma função em Python para calcular o fatorial de um número?",
+    "resposta": "Você pode escrever uma função recursiva para calcular o fatorial de um número em Python. Aqui está um exemplo:\n\ndef fatorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * fatorial(n - 1)"
+  },
+  {
+    "pergunta": "O que é uma lista em Python?",
+    "resposta": "Uma lista em Python é uma coleção ordenada e mutável de itens. Você pode armazenar itens de diferentes tipos em uma lista, como números, strings e até mesmo outras listas. Listas são definidas colocando itens entre colchetes, separados por vírgulas."
+  },
+  {
+    "pergunta": "Como posso ler um arquivo CSV em Python?",
+    "resposta": "Você pode usar a biblioteca pandas para ler um arquivo CSV em Python. Aqui está um exemplo:\n\nimport pandas as pd\n\ndf = pd.read_csv('caminho/para/seu/arquivo.csv')\n\nIsso carregará o conteúdo do arquivo CSV em um DataFrame do pandas, que é uma estrutura de dados conveniente para análise de dados."
+  },
+  {
+    "pergunta": "O que é uma função lambda em Python?",
+    "resposta": "Uma função lambda em Python é uma função anônima, ou seja, uma função sem nome. Ela é definida usando a palavra-chave lambda e pode ter qualquer número de argumentos, mas apenas uma expressão. Funções lambda são frequentemente usadas para operações simples e rápidas."
+  },
+  {
+    "pergunta": "Como posso instalar pacotes em Python?",
+    "resposta": "Você pode instalar pacotes em Python usando o gerenciador de pacotes pip. Para instalar um pacote, use o comando:\n\npip install nome_do_pacote\n\nPor exemplo, para instalar a biblioteca requests, você usaria:\n\npip install requests"
+  }
+]
